@@ -1,0 +1,21 @@
+.env
+
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Archivos temporales
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos privados
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Copias de respaldo
+app.BACKUP.py
+
+prueba_bd.py
